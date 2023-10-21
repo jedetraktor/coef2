@@ -1,0 +1,19 @@
+fr = int(input("Veuillez saisir la note de français :"))
+coef_fr = int(input("Veuillez saisir le coef de français :"))
+math = int(input("Veuillez saisir la note de mathématiques :"))
+coef_math = int(input("Veuillez saisir le coef de mathétmatiques :"))
+geo = int(input("Veuillez saisir la note de géographie :"))
+coef_geo = int(input("Veuillez saisir le coef de géographie :"))
+info = int(input("Veuillez saisir la note d'informatiques :"))
+coef_info = int(input("Veuillez saisir le coef d'infomatique :"))
+
+
+note_fr = fr * coef_fr
+note_math = math * coef_math
+note_geo = geo * coef_geo
+note_info = info * coef_info
+note_coef = coef_fr +coef_math + coef_geo + coef_info
+
+moy = (note_fr + note_math + note_geo + note_info) / note_coef
+
+print(moy)
